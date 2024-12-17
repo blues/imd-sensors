@@ -1,0 +1,6 @@
+{
+    "Arduino": {
+        "name": "Adafruit BME280 Library",
+        "version": "2.2.4"
+    }
+}
