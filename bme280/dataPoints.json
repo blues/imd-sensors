@@ -1,32 +1,34 @@
-"dataPoints": [
-  {
-    "name": "Humidity",
-    "sensor": "bme280",
-    "impl": "76d0a7ab-be10-529d-9889-0a6ac7da04c7",
-    "type": "number",
-    "precision": 3,
-    "minValue": 0,
-    "maxValue": 100,
-    "unit": "%RH"
-  },
-  {
-    "name": "Pressure",
-    "sensor": "bme280",
-    "impl": "d96fb2a2-6c3b-5b86-8bc9-36ab2574455f",
-    "type": "number",
-    "precision": 2,
-    "minValue": 300,
-    "maxValue": 1100,
-    "unit": "hPa"
-  },
-  {
-    "name": "Temperature",
-    "sensor": "bme280",
-    "impl": "46bdbe42-d8ba-514f-8a33-e22e11e3d840",
-    "type": "number",
-    "precision": 2,
-    "minValue": -40,
-    "maxValue": 85,
-    "unit": "C"
-  }
-]
+{
+  "dataPoints": [
+    {
+      "name": "Humidity",
+      "sensor": "bme280",
+      "impl": "76d0a7ab-be10-529d-9889-0a6ac7da04c7",
+      "type": "number",
+      "precision": 3,
+      "minValue": 0,
+      "maxValue": 100,
+      "unit": "%RH"
+    },
+    {
+      "name": "Pressure",
+      "sensor": "bme280",
+      "impl": "d96fb2a2-6c3b-5b86-8bc9-36ab2574455f",
+      "type": "number",
+      "precision": 2,
+      "minValue": 300,
+      "maxValue": 1100,
+      "unit": "hPa"
+    },
+    {
+      "name": "Temperature",
+      "sensor": "bme280",
+      "impl": "46bdbe42-d8ba-514f-8a33-e22e11e3d840",
+      "type": "number",
+      "precision": 2,
+      "minValue": -40,
+      "maxValue": 85,
+      "unit": "C"
+    }
+  ]
+}

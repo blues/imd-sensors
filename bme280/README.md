@@ -5,7 +5,7 @@ This sensor code fragment is implemented as a wrapper around the Adafruit
 BME280 library.
 
 Hardware
-------
+--------
 
 ### Wiring
 

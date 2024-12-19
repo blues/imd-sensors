@@ -5,7 +5,7 @@ This repository is designed to provide an extensible collection of sensor
 definitions to the Intelligent Machine Designer.
 
 Components
-------
+----------
 
 ### `dataPoints.json`
 
