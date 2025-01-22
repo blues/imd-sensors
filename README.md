@@ -17,7 +17,8 @@ data, and can be consumed by the IMD UI to be placed directly into the resulting
 
 Each data point contains a sensor name and a UUID key to the implementation.
 The sensor name is the name of the folder it originated from in this repository,
-and the UUID provides a link to the code fragment required to sample the sensor.
+and the UUID provides a link to the function definition required to sample the
+sensor.
 
 ### `dependencies.json`
 
@@ -38,3 +39,27 @@ used to bind the hardware to library, or initialize values in the object.
 
 The code fragment responsible for instantiating the underlying object, which
 will contain the state of the sensor.
+
+Firmware
+--------
+
+### Multiple Instance Support
+
+The firmware generator can support multiple instances, so long as you use the
+instance replacement syntax, `{{ instance }}`. `{{ instance }}` will be replaced
+by a number, allowing both objects and function signatures to remain unique.
+
+**Example:**
+
+`instantiate.cpp`
+
+```cpp
+Adafruit_BME280 bme{{ instance }}; // I2C
+```
+
+may be generated as:
+
+```cpp
+Adafruit_BME280 bme1; // I2C
+Adafruit_BME280 bme2; // I2C
+```
