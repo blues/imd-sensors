@@ -15,6 +15,12 @@ connector cable.
 Firmware
 --------
 
+### Libraries
+
+The Arduino library dependencies (enumerated in `dependencies.json`) are
+expected to be installed by the user, prior to compiling the generated
+application firmware.
+
 ### Data Points
 
 Values

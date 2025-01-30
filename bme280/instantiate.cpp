@@ -1,1 +1,1 @@
-Adafruit_BME280 bme; // I2C
+Adafruit_BME280 bme{{ instance }}; // I2C
