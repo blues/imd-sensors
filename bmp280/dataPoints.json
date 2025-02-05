@@ -1,0 +1,34 @@
+{
+  "dataPoints": [
+    {
+      "name": "Altitude",
+      "sensor": "bmp280",
+      "impl": "78afeb33-03cb-4d10-9457-16666f03451b",
+      "template": "TFLOAT16",
+      "precision": 2,
+      "minValue": -500,
+      "maxValue": 9000,
+      "unit": "m"
+    },
+    {
+      "name": "Pressure",
+      "sensor": "bmp280",
+      "impl": "3e9c8967-7128-45de-a8c5-ded86b239124",
+      "template": "TFLOAT16",
+      "precision": 2,
+      "minValue": 300,
+      "maxValue": 1100,
+      "unit": "hPa"
+    },
+    {
+      "name": "Temperature",
+      "sensor": "bmp280",
+      "impl": "01a99f9d-3c87-4fb5-ae8c-5b0193e6b29e",
+      "template": "TFLOAT16",
+      "precision": 2,
+      "minValue": -40,
+      "maxValue": 85,
+      "unit": "C"
+    }
+  ]
+}
