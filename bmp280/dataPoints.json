@@ -3,7 +3,7 @@
     {
       "name": "Altitude",
       "sensor": "bmp280",
-      "impl": "78afeb33-03cb-4d10-9457-16666f03451b",
+      "impl": "89e279ef-a1e9-5758-b972-46d7d3502f68",
       "template": "TFLOAT16",
       "precision": 2,
       "minValue": -500,
@@ -13,7 +13,7 @@
     {
       "name": "Pressure",
       "sensor": "bmp280",
-      "impl": "3e9c8967-7128-45de-a8c5-ded86b239124",
+      "impl": "94abb025-f1c1-5173-b952-906c06ea4c51",
       "template": "TFLOAT16",
       "precision": 2,
       "minValue": 300,
@@ -23,7 +23,7 @@
     {
       "name": "Temperature",
       "sensor": "bmp280",
-      "impl": "01a99f9d-3c87-4fb5-ae8c-5b0193e6b29e",
+      "impl": "5c6724f6-fb96-5b25-a209-c53c27aaf9ed",
       "template": "TFLOAT16",
       "precision": 2,
       "minValue": -40,

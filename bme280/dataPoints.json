@@ -3,7 +3,7 @@
     {
       "name": "Humidity",
       "sensor": "bme280",
-      "impl": "76d0a7ab-be10-529d-9889-0a6ac7da04c7",
+      "impl": "637aa617-ca1d-58a6-a3a8-ea2570f53ba5",
       "template": "TFLOAT16",
       "precision": 3,
       "minValue": 0,
@@ -13,7 +13,7 @@
     {
       "name": "Pressure",
       "sensor": "bme280",
-      "impl": "d96fb2a2-6c3b-5b86-8bc9-36ab2574455f",
+      "impl": "95f9abfe-2049-52f4-9590-b914b0c4cd92",
       "template": "TFLOAT16",
       "precision": 2,
       "minValue": 300,
@@ -23,7 +23,7 @@
     {
       "name": "Temperature",
       "sensor": "bme280",
-      "impl": "46bdbe42-d8ba-514f-8a33-e22e11e3d840",
+      "impl": "6b8a07aa-5344-5d97-8e24-6b8ad24a53cc",
       "template": "TFLOAT16",
       "precision": 2,
       "minValue": -40,
